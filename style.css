@@ -1,0 +1,23 @@
+.pin{
+
+    transition: transform .1s;
+    
+}
+
+.pin:hover{
+
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* 
+.sacha{
+
+    margin-bottom: 20px;
+}  */
+
+/* .perrine{
+
+    margin-left: 40px;
+} */
