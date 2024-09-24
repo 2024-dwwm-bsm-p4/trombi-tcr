@@ -21,6 +21,12 @@ function Terence() {
     </div>
 `,
 css:`
+div.popup-content{
+max-width: 500px;
+max-height: 700px;
+width: 100%;
+height: auto;
+}
 div.Stacks{
 display:flex;
 flex-direction: row;
@@ -32,22 +38,18 @@ flex-direction: row;
 justify-content: space-between;
 align-items:center;
 }
+img.img-terence {
+width: 300px;
+height: 300px;
+border-radius: 50%;
+}
 div.img-pop{
 display:flex;
 flex-direction: row;
 justify-content: space-between;
 align-items:center;
 }
-.popup-content{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items:center
-}
-img.img-terence{
-width: 250px;
-height: 250px;
-}
+div.
 `
 ,
   });
@@ -96,14 +98,9 @@ justify-content: space-between;
 align-items:center;
 }
 img.img-sacha{
-width: 250px;
-height: 250px;
-}
-.popup-content{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items:center
+width: 300px;
+height: 300px;
+border-radius: 50%;
 }
 `,
   });
@@ -149,14 +146,9 @@ justify-content: space-between;
 align-items:center
 }
 img.img-florent{
-width: 250px;
-height: 250px;
-}
-.popup-content{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items:center
+width: 300px;
+height: 300px;
+border-radius: 50%;
 }
 `,
   });
@@ -197,14 +189,9 @@ function Perrine() {
     align-items:center
     }
     img.img-perrine{
-    width: 250px;
-    height: 250px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     }
     `,
   });
@@ -242,14 +229,9 @@ justify-content: space-between;
 align-items:center
 }
 img.img-marine{
-width: 250px;
-height: 250px;
-}
-.popup-content{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items:center
+width: 300px;
+height: 300px;
+border-radius: 50%;
 }
 `,
   });
@@ -288,14 +270,9 @@ justify-content: space-between;
 align-items:center
 }
 img.img-philippe{
-width: 250px;
-height: 250px;
-}
-.popup-content{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items:center
+width: 300px;
+height: 300px;
+border-radius: 50%;
 }
 `,
   });
@@ -336,14 +313,9 @@ justify-content: space-between;
 align-items:center
 }
 img.img-Aledorian{
-width: 190px;
-height: 250px;
-}
-.popup-content{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-align-items:center
+width: 300px;
+height: 300px;
+border-radius: 50%;
 }
 `,});
 
@@ -382,14 +354,9 @@ function Maryline() {
     align-items:center
     }
     img.img-maryline{
-    width: 200px;
-    height: 200px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     }
     `,
   });
@@ -428,12 +395,7 @@ function Julie() {
     img.img-julie{
     width: 300px;
     height: 300px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    border-radius: 50%;
     }
     `,
   });
@@ -477,12 +439,7 @@ function Maxence() {
     img.img-maxence{
     width: 300px;
     height: 300px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    border-radius: 50%;
     }
     `,
   });
@@ -522,15 +479,10 @@ function Yohann() {
     justify-content: space-between;
     align-items:center
     }
-    img.img-yohann{
+    img.img-yohann {
     width: 300px;
     height: 300px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    border-radius: 50%;
     }
     `,
   });
@@ -569,14 +521,9 @@ function Gregoire() {
     align-items:center
     }
     img.img-gregoire{
-    width: 200px;
-    height: 200px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     }
     `,
   });
@@ -625,14 +572,9 @@ function Nicolas() {
     align-items:center
     }
     img.img-nico{
-    width: 200px;
-    height: 200px;
-    }
-    .popup-content{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     }
     `,
   });
@@ -666,15 +608,10 @@ function Laurie() {
      align-items:center
      }
      img.img-laurie{
-     width: 200px;
-     height: 200px;
-     }
-     .popup-content{
-     display:flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items:center
-     }
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    }
      `,
   });
 
@@ -718,15 +655,10 @@ function Remi() {
      align-items:center
      }
      img.img-remi{
-     width: 200px;
-     height: 200px;
-     }
-     .popup-content{
-     display:flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items:center
-     }
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    }
      `,
   });
 
