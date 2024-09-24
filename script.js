@@ -353,7 +353,7 @@ align-items:center
 function Maryline() {
   const maryline = new Popup({
     id: "maryline",
-    title: "Maryline Lesaffre ",
+    title: "Maryline Lesaffre",
     content: `
     Ville :  Le Portel
     <div class="Stacks">
