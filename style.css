@@ -6,17 +6,18 @@ body {
 }
 
 header {
-    color: black;
-    width: 100%;
-    z-index: 1000;
+    margin: 0;
+    color: white;
+    background-color: black;
+    width: auto;
+    padding: 10px
 }
 
 h1 {
     text-align: center;
-    padding: 20px;
 }
 
 .map {
     fill: rgb(207, 215, 221);
-    width: 
+    width: 100%
 }
