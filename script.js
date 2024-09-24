@@ -158,7 +158,7 @@ function Aledorian() {
 function Maryline() {
   const maryline = new Popup({
     id: "maryline",
-    title: "Maryline Lesaffre ",
+    title: "Maryline Lesaffre",
     content: `
     An example popup.
     Supports multiple lines.`,

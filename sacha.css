@@ -17,7 +17,12 @@ h1 {
     text-align: center;
 }
 
+.container-map {
+    position: relative;
+    display: inline-block;
+}
+
 .map {
-    fill: rgb(207, 215, 221);
     width: 100%;
+    display: block;
 }
